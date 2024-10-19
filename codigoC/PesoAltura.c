@@ -16,7 +16,7 @@ int main(){
     pessoa1.altura=185;
 
     //imprimi informações do objeto organizados sequencialmente. %i : dados da variavel. pessoa1.peso,pessoa1.altura: organização de sobre quais dados serão imprimidos sendo primeiro o peso e depois altura.
-    printf("Peso: %i, Altura: %i.",pessoa1.peso,pessoa1.altura);
+    printf("Peso: %i, Altura: %i.\n",pessoa1.peso,pessoa1.altura);
 
     //verifica se a altura da pessoa é maior que o valor da constante alturaMaxima (250) como se fosse um limite.
     if (pessoa1.altura>alturaMaxima)printf("Altura acima da maxima.\n");
@@ -24,3 +24,4 @@ int main(){
     //caso o valor da altura seja maior que a constante (alturaMaxima 225) ele ira dar esta mensagem 
     else printf("Altura abaixo da maxima.\n");
 }
+
